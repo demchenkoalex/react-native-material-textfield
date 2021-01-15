@@ -111,8 +111,8 @@ export default class TextField extends PureComponent {
 
     formatText: PropTypes.func,
 
-    renderLeftAccessory: PropTypes.oneOfType([PropTypes.func, PropTypes.boolean]),
-    renderRightAccessory: PropTypes.oneOfType([PropTypes.func, PropTypes.boolean]),
+    // renderLeftAccessory: PropTypes.oneOfType([PropTypes.func, PropTypes.boolean]),
+    // renderRightAccessory: PropTypes.oneOfType([PropTypes.func, PropTypes.boolean]),
 
     prefix: PropTypes.string,
     suffix: PropTypes.string,
